@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Music Sorter",
+    "version": "1.0",
+
+    "description": "Sort Youtube Music playlist by play count",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+
+    "permissions": ["activeTab"],
+
+    "browser_action": {
+        "default_icon": "icons/icon.png",
+        "default_title": "Sort",
+        "default_popup": "sort.html"
+    }
+
+}
+  
